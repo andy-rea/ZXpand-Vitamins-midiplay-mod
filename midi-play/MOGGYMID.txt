@@ -1,0 +1,11 @@
+MOGGYMID.ASM - z80 assembly files should be compiled with FASM available on the zx81 forum here https://www.sinclairzxworld.com/viewtopic.php?f=6&t=1064
+		contains header files ect needed to compile correctly.
+
+MOGGYMID.P - pre assempled p file for use on zx81 equiped with zxpand+ and a suitable midi device attached.
+
+This player accepts any number of pre coverted midi files but expects them to be name 1.ZXM 2.ZXM 3.ZXM .... 99997.ZXM 99998.ZXM 99999.ZXM
+When first run it will ask for a number upon been given a number midi playback will start at that numbered file and increment by 1 each time.
+
+Known bugs... long empty non midi event pauses will cause premature exit from playback and next track will play.
+
+Thats all i wrote :-) 
