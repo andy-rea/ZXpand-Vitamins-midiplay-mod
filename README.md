@@ -14,6 +14,14 @@ on startng the player you are prompted for a start track number.
 plyback wil start from that track and continue sequencially in an
 assending order.
 
+
+Playlist support added.....
+
+no need to have numbered filenames :-)
+
+Also Random Play added ( random only works with playlists )
+
+
 Future goals :- support Playlist, which will enable more descriptive
 filename... however still in the  8.3 format expected by ZXpand.
 
